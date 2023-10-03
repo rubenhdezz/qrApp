@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://pruebas.ehsconsultores.com/api/index.php/'
+  apiUrl: 'https://appi.zendata.mx/api/'
 
 };
 

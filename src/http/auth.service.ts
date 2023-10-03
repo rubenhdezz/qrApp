@@ -17,7 +17,7 @@ export class AuthService {
    * @returns Observable<void>IUserResponse
    */
   login(user: IUser) {
-    const url = `${environment.apiUrl}login`;
+    const url = `${environment.apiUrl}auth/login`;
     return this.http.post<any>(url, user)
       .pipe((userResp) => userResp);
   }
